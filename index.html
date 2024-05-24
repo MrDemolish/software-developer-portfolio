@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeCraft Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -13,33 +15,33 @@
                 <h1>CodeCraft</h1>
             </div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="game.html">Game</a></li>
-                    <li><button class="new-post">New</button></li>
-                    <li><button class="profile"><img src="profile.jpg" alt="Profile"></button></li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </nav>
         </div>
     </header>
     <main>
         <section class="hero">
-            <div class="parallax">
-                <img src="hero-image.jpg" alt="Hero Image" data-speed="3">
-            </div>
-            <div class="hero-text">
-                <h2>Welcome to my blog</h2>
+            <div class="hero-text animate__animated animate__fadeIn">
+                <h1>Welcome to my blog</h1>
                 <p>A place where I write about code, design, and life. I am a frontend developer who loves building beautiful interfaces and writing about the journey. I hope you find something useful here.</p>
                 <div class="search-box">
-                    <input type="text" placeholder="Search posts..." id="search-input">
+                    <input type="text" id="search-input" placeholder="Search posts...">
                     <button onclick="searchPosts()">Search</button>
                 </div>
             </div>
         </section>
-        <section class="categories">
+        <section class="categories animate__animated animate__fadeInUp">
             <h3>Categories</h3>
             <div class="category-tags">
                 <span onclick="filterPosts('React')">React</span>
@@ -50,30 +52,29 @@
                 <span onclick="filterPosts('All')">All</span>
             </div>
         </section>
-        <section class="recent-posts">
+        <section class="recent-posts animate__animated animate__fadeInUp">
             <h3>Recent Posts</h3>
             <div class="post-list">
-                <article class="post" data-category="React">
-                    <img src="post1.jpg" alt="Post 1">
-                    <div class="post-content">
-                        <h4>How to create a custom React hook</h4>
-                        <p>June 20th • 2 min read</p>
-                    </div>
-                </article>
-                <article class="post" data-category="CSS">
-                    <img src="post2.jpg" alt="Post 2">
-                    <div class="post-content">
-                        <h4>The power of CSS Grid</h4>
-                        <p>June 15th • 3 min read</p>
-                    </div>
-                </article>
-                <article class="post" data-category="CSS">
-                    <img src="post3.jpg" alt="Post 3">
-                    <div class="post-content">
-                        <h4>Why I love Tailwind CSS</h4>
-                        <p>June 10th • 2 min read</p>
-                    </div>
-                </article>
+                <div class="post" data-category="CSS">
+                    <img src="code.jpg" alt="Code">
+                    <h4>The power of CSS Grid</h4>
+                    <p>June 15th • 3 min read</p>
+                </div>
+                <div class="post" data-category="CSS">
+                    <img src="css.jpg" alt="CSS">
+                    <h4>Why I love Tailwind CSS</h4>
+                    <p>June 10th • 2 min read</p>
+                </div>
+                <div class="post" data-category="JavaScript">
+                    <img src="react.jpg" alt="React">
+                    <h4>Understanding React Hooks</h4>
+                    <p>June 5th • 5 min read</p>
+                </div>
+                <div class="post" data-category="Design">
+                    <img src="design.jpg" alt="Design">
+                    <h4>The future of UI/UX design</h4>
+                    <p>May 28th • 4 min read</p>
+                </div>
             </div>
         </section>
     </main>

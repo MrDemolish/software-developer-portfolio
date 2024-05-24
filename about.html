@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - CodeCraft Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
@@ -13,20 +14,23 @@
                 <h1>CodeCraft</h1>
             </div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="game.html">Game</a></li>
-                    <li><button class="new-post">New</button></li>
-                    <li><button class="profile"><img src="profile.jpg" alt="Profile"></button></li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </nav>
         </div>
     </header>
     <main>
-        <section class="about-section">
+        <section class="about-section animate__animated animate__fadeInUp">
             <h2>About Me</h2>
             <p>Hi, I'm a frontend developer who loves building beautiful interfaces and writing about my journey.</p>
             <p>I have a passion for creating intuitive, dynamic user experiences. Over the years, I've worked on various projects ranging from small personal websites to large-scale applications.</p>
@@ -47,5 +51,6 @@
             </nav>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
