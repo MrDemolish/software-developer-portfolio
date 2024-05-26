@@ -36,9 +36,18 @@
 The "CodeCraft Blog" is well-organized, easy to navigate, and adapted to different devices thanks to its responsive design.
 
 ### Screenshots
-Home
+**Home**
 ![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/9c9a24fb-67d3-42b7-abcf-ee07275dadb0)
 
-Game
+**Projects**
+![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/0128aaea-a051-471b-8006-b499437f3b4c)
+
+**About**
+![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/b85c068b-b08a-4859-abed-af941553afbb)
+
+**Contact**
+![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/30ade9d4-8924-4252-9815-bd50ec0bf91b)
+
+**Game**
 ![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/aa9dc7d8-6b4b-4223-89f1-338b75273620)
 
