@@ -34,4 +34,11 @@
 - **JavaScript**: A JavaScript script handles the hamburger menu functionality, ensuring smooth transitions and closing the menu upon clicking a link.
 
 The "CodeCraft Blog" is well-organized, easy to navigate, and adapted to different devices thanks to its responsive design.
+
+### Screenshots
+Home
 ![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/9c9a24fb-67d3-42b7-abcf-ee07275dadb0)
+
+Game
+![image](https://github.com/MrDemolish/software-developer-portfolio/assets/147986097/aa9dc7d8-6b4b-4223-89f1-338b75273620)
+
